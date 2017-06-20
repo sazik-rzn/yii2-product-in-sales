@@ -7,10 +7,14 @@ use Yii;
 class SalesWidget extends \yii\base\Widget {
 
     public $products_ids;
+    public $js = true;
 
     public function run() {
         parent::run();
-        return $this->render('view', ['ids' => implode(',', $this->products_ids)]);
+        if(!$this->js){
+            return $this->render('view', ['ids' => '', 'js' => $this->js]);
+        }
+        return $this->render('view', ['ids' => implode(',', $this->products_ids), 'js' => $this->js]);
     }
 
 }

@@ -29,7 +29,11 @@
 Использование:
 --------------
 
-нужно просто добавить виджет на страничку категории
+Первое вхождение на странице
 
     \sazik\product\inSales\widgets\SalesWidget\SalesWidget::::widget(['products_ids'=>массив_с_адишниками_продуктов_в_категории]);
+
+Последующие вхождения на странице
+
+    \sazik\product\inSales\widgets\SalesWidget\SalesWidget::::widget(['js'=>false]);
 
