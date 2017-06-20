@@ -14,7 +14,7 @@
  В файле конфига приложения должно появиться примерно следующее: 
 
     'modules' => [
-        'имя_модуля' => [
+        'insales' => [
             'class'=> \sazik\product\inSales\Module::::className(),
             'offer_model_class' => путь_к_классу_акций::className(),
         ],
