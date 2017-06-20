@@ -45,7 +45,7 @@ class Module extends \yii\base\Module implements \yii\base\BootstrapInterface {
         $app->getUrlManager()->addRules([
             [
                 'class' => 'yii\web\UrlRule',
-                'route' => $this->id . '/default/filter',
+                'route' => 'insales/default/filter',
                 'pattern' => 'insales',
             ]
                 ], false);
