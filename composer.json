@@ -1,0 +1,23 @@
+{
+    "name": "sazik-rzn/yii2-product-in-sales",
+    "description": "Module for Yii2 framework to sort products in category by sale",
+    "keywords": ["yii2", "shop", "component", "sazik", "sale", "product"],
+    "homepage": "https://github.com/sazik-rzn/yii2-product-in-sales",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vladimir Sazonov",
+            "email": "sazik.rzn@gmail.com",
+            "homepage": "http://szn-development.ru/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "sazik\\product\\inSales\\": ""
+        }
+    }
+}
