@@ -1,5 +1,7 @@
 <?php
 
+namespace sazik\product\inSales;
+
 class Bootstrap implements \yii\base\BootstrapInterface {
 
     public function bootstrap($app) {
