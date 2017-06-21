@@ -2,6 +2,9 @@
 
 namespace sazik\product\inSales;
 
+use yii\base\BootstrapInterface;
+use yii\base\Application;
+
 class Bootstrap implements \yii\base\BootstrapInterface {
 
     public function bootstrap($app) {
