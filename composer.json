@@ -21,6 +21,6 @@
         }
     },
     "extra": {
-        "bootstrap": "sazik\\product\\inSales\\Module"
+        "bootstrap": "sazik\\product\\inSales\\Bootstrap"
     }
 }

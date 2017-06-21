@@ -7,7 +7,7 @@ use Yii;
 /**
  * Модуль добавляет фильт по скидкам в категорию.
  */
-class Module extends \yii\base\Module implements \yii\base\BootstrapInterface {
+class Module extends \yii\base\Module {
 
     /**
      * путь к модели акций 
@@ -39,16 +39,6 @@ class Module extends \yii\base\Module implements \yii\base\BootstrapInterface {
             return \Yii::$app->params[self::params_path][$name];
         }
         return false;
-    }
-
-    public function bootstrap($app) {
-        $app->getUrlManager()->addRules([
-            [
-                'class' => 'yii\web\UrlRule',
-                'route' => 'insales/default/filter',
-                'pattern' => 'insales',
-            ]
-                ], false);
     }
 
 }
