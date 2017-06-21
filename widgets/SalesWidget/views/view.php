@@ -1,19 +1,7 @@
 <?php if ($js) { ?>
+    <?php sazik\product\InSales\widgets\SalesWidget\Asset::register($this);?>
     <script>
-        var ids = '<?= $ids ?>';
-        $(document).ready(function () {
-            $.post('/insales', {
-                ids: ids
-            }).done(function (data) {
-                if (data !== 0 && data !== "0") {
-                    $('.sales-input').val(data);
-                } else {
-                    $('.sales-checkbox').remove();
-                }
-            }).fail(function () {
-                $('.sales-checkbox').remove();
-            });
-        });
+        var sales_ids = '<?= $ids ?>';        
     </script>
 <?php } ?>
 <div class="sales-checkbox checkbox">
