@@ -1,6 +1,6 @@
 <?php
 
-namespace sazik\product\inSales;
+namespace sazik\product\InSales;
 
 use yii\base\BootstrapInterface;
 use yii\base\Application;

@@ -17,10 +17,10 @@
     },
     "autoload": {
         "psr-4": {
-            "sazik\\product\\inSales\\": ""
+            "sazik\\product\\InSales\\": ""
         }
     },
     "extra": {
-        "bootstrap": "sazik\\product\\inSales\\Bootstrap"
+        "bootstrap": "sazik\\product\\InSales\\Bootstrap"
     }
 }

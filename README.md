@@ -15,7 +15,7 @@
 
     'modules' => [
         'insales' => [
-            'class'=> \sazik\product\inSales\Module::::className(),
+            'class'=> \sazik\product\InSales\Module::::className(),
             'offer_model_class' => путь_к_классу_акций::className(),
         ],
     ],

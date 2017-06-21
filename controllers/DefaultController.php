@@ -1,6 +1,6 @@
 <?php
 
-namespace sazik\product\inSales\controllers;
+namespace sazik\product\InSales\controllers;
 
 use Yii;
 

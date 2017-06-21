@@ -1,6 +1,6 @@
 <?php
 
-namespace sazik\product\inSales\ifaces;
+namespace sazik\product\InSales\ifaces;
 
 interface IOffer extends \yii\db\ActiveRecordInterface {
 

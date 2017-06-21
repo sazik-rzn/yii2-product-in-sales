@@ -1,6 +1,6 @@
 <?php
 
-namespace sazik\product\inSales\widgets\SalesWidget;
+namespace sazik\product\InSales\widgets\SalesWidget;
 
 use Yii;
 
