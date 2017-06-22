@@ -5,7 +5,12 @@ namespace sazik\product\InSales\controllers;
 use Yii;
 
 class DefaultController extends \yii\web\Controller {
-
+    
+    public function beforeAction($action) {
+        $this->enableCsrfValidation = false;
+        return parent::beforeAction($action);
+    }
+    
     /**
      * Filter product`s ids. 
      * @return int|string int(0) - no matches, string - matched ids
