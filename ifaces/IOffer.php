@@ -2,7 +2,7 @@
 
 namespace sazik\product\InSales\ifaces;
 
-interface IOffer extends \yii\db\ActiveRecordInterface {
+interface IOffer {
 
     public static function getProductsIDsInActual();    
 }
