@@ -29,7 +29,7 @@ class DefaultController extends \yii\web\Controller {
                 }
             }
             if(count($result)>0){
-                return implode(',', $result);                
+                return json_encode($result);                
             }
         }
         return 0;
